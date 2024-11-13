@@ -13,6 +13,7 @@ import StartupFunding from '../components/StartupFunding';
 import Stats from '../components/Stats'; 
 import OfferSection from '../components/OfferSection';
 import Faq from '../components/Faq';
+import Afooter from '../components/Afooter';
 const Home = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const Home = () => {
         <Stats />
         <Faq />
       </main>
+      <Afooter/>
       <Footer />
     </div>
   );
