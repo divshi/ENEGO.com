@@ -31,7 +31,7 @@ const Certifications = () => {
 
                     ].map((item, index) => (
                         <div key={index} className="flex flex-col items-center justify-center p-4 bg-blue-900 rounded-full w-[280px] h-[280px] transition-transform duration-300 hover:scale-105">
-                            <div className="w-20 h-20 mb-4 rounded-full overflow-hidden shadow-lg bg-white">
+                            <div className="w-40 h-20 mb-4 rounded-full overflow-hidden shadow-lg bg-white">
                                 <img src={item.src} alt={item.title} className="w-full h-full object-cover"/>
                             </div>
                             <p className="text-xl font-semibold text-white text-center">{item.title}</p>

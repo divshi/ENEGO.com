@@ -27,7 +27,7 @@ const Services = () => {
                                 <img
                                     src={service.image}
                                     alt={service.title}
-                                    className="w-20 h-20 rounded-full shadow-[0_8px_20px_rgba(0,0,0,0.2)]" 
+                                    className="w-40 h-20 rounded-full shadow-[0_8px_20px_rgba(0,0,0,0.2)]" 
                                 />
                             </div>
                         </div>

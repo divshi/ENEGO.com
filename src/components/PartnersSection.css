@@ -1,0 +1,52 @@
+.partners-section {
+    background: #ffffff;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    color: #1e3a8a;
+    margin-bottom: 1rem;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 60%; /* Visible area for the logos */
+    margin: 0 auto;
+  }
+  
+  .slider .inner-slider {
+    display: flex;
+    animation: scroll 60s linear infinite; /* Continuous scroll effect */
+  }
+  
+  .partner-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 20px;
+  }
+  
+  .logo-image {
+    max-width: 100%;
+  }
+  
+  /* Keyframes for horizontal scroll animation */
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

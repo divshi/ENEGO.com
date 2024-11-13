@@ -14,6 +14,7 @@ import Stats from '../components/Stats';
 import OfferSection from '../components/OfferSection';
 import Faq from '../components/Faq';
 import Afooter from '../components/Afooter';
+import PartnersSection from '../components/PartnersSection';
 const Home = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ const Home = () => {
         <StartupFunding /> */}
         <Stats />
         <Faq />
+        <PartnersSection />
       </main>
       <Afooter/>
       <Footer />
