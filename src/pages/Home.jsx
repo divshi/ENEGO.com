@@ -10,19 +10,23 @@ import Footer from '../components/Footer';
 import Business from '../components/Business';
 import Certifications from '../components/Certifications';
 import StartupFunding from '../components/StartupFunding';
- 
+import Stats from '../components/Stats'; 
+import OfferSection from '../components/OfferSection';
 const Home = () => {
   return (
     <div>
       <Header />
       <main>
         <Hero />
+        <About />
         <Services />
-        <ServicesGrid />
+        <OfferSection/>
+        {/* <ServicesGrid /> */}
         {/* <Contact /> */}
-        <Business />
+        {/* <Business />
         <Certifications />
-        <StartupFunding />
+        <StartupFunding /> */}
+        <Stats />
       </main>
       <Footer />
     </div>
