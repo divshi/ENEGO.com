@@ -11,7 +11,7 @@ import s13 from '../assets/s13.jpeg';
 import s14 from '../assets/s14.jpeg';
 import s15 from '../assets/s15.jpeg';
 import s16 from '../assets/s16.jpeg';
-import s17 from '../assets/s17.jpeg';
+import s17 from '../assets/s17.jpg';
 import d1 from '../assets/d1.jpeg';
 import d2 from '../assets/d2.jpeg';
 import d3 from '../assets/d3.jpeg';
@@ -36,15 +36,15 @@ const AboutSection = () => {
       { img: s10, title: 'Goods and Service Tax', description: 'GST registration and regulation...' }
     ],
     'Acquire Certifications': [
-      { img: s11, title: 'Startup India Certification' },
-      { img: s12, title: 'MSME Registration' },
-      { img: s13, title: 'Udyam Certification' },
-      { img: s14, title: 'ZED Certification' },
-      { img: s15, title: 'Tax Exemption Certificate' }
+      { img: s13, title: 'Startup India Certification' },
+      { img: d3, title: 'MSME Registration' },
+      { img: s15, title: 'Udyam Certification' },
+      { img: s16, title: 'ZED Certification' },
+      { img: s17, title: 'Tax Exemption Certificate' }
     ],
     'Grow Your Business': [
-      { img: s16, title: 'ISO Certification', description: 'Achieve internationally recognized standards and elevate your brand reputation.' },
-      { img: s17, title: 'IEC Certification', description: 'Get certified for international trade and take your business global.' }
+      { img: s11, title: 'ISO Certification', description: 'Achieve internationally recognized standards and elevate your brand reputation.' },
+      { img: s12, title: 'IEC Certification', description: 'Get certified for international trade and take your business global.' }
     ],
     'Startup Funding': [
       { img: s13, title: 'Government Grants and Funding', description: 'The Government of India provides Grants and Funding opportunities to innovative startups...' },
