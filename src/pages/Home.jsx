@@ -12,6 +12,7 @@ import Certifications from '../components/Certifications';
 import StartupFunding from '../components/StartupFunding';
 import Stats from '../components/Stats'; 
 import OfferSection from '../components/OfferSection';
+import Faq from '../components/Faq';
 const Home = () => {
   return (
     <div>
@@ -27,6 +28,7 @@ const Home = () => {
         <Certifications />
         <StartupFunding /> */}
         <Stats />
+        <Faq />
       </main>
       <Footer />
     </div>
