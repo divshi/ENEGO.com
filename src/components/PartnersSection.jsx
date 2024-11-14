@@ -7,6 +7,8 @@ import PhonePeLogo from "../assets/phonepe.png";
 import RazorpayLogo from "../assets/razorpay.png";
 import ComplianceLogo from "../assets/compliance.png";
 import AbstractLogo from "../assets/abstract.png";
+import Banner from "../assets/banner.jpeg";
+
 import "./PartnersSection.css";
 
 const PartnersSection = () => {
@@ -17,28 +19,28 @@ const PartnersSection = () => {
         <div className="slider">
           <div className="inner-slider">
             {/* Logos duplicated twice for seamless scrolling */}
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={EastbridgeLogo} alt="Eastbridge Group" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={KotakLogo} alt="Kotak Mahindra Bank" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={GooglePayLogo} alt="Google Pay" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={PaytmLogo} alt="Paytm" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={PhonePeLogo} alt="PhonePe" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={RazorpayLogo} alt="Razorpay" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={ComplianceLogo} alt="Compliance Simplified" className="logo-image" />
             </div>
-            <div className="partner-logo">
+            <div className="partner-logo  rounded-full">
               <img src={AbstractLogo} alt="Abstract Media" className="logo-image" />
             </div>
 
