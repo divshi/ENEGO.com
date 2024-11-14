@@ -12,13 +12,13 @@
     display: flex;
     overflow: hidden;
     position: relative;
-    width: 60%; /* Visible area for the logos */
+    width: 60%; 
     margin: 0 auto;
   }
   
   .slider .inner-slider {
     display: flex;
-    animation: scroll 60s linear infinite; /* Continuous scroll effect */
+    animation: scroll 240s linear infinite; 
   }
   
   .partner-logo {

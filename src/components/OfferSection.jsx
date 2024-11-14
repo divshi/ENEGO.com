@@ -19,6 +19,7 @@ import d4 from '../assets/d4.jpeg';
 import d5 from '../assets/d5.jpeg';
 import d6 from '../assets/d6.jpeg';
 import d7 from '../assets/d7.jpeg';
+
 const AboutSection = () => {
   const [activeTab, setActiveTab] = useState('Start Your Business');
 
@@ -61,18 +62,20 @@ const AboutSection = () => {
   return (
     <section className="about-section py-16 px-10">
       <h2 className="text-4xl font-bold text-blue-900 text-center mb-8">What We Offer</h2>
-      <div className="flex justify-center mb-6 space-x-6">
+      
+      <div className="flex justify-center space-x-6">
         {Object.keys(servicesData).map((tab) => (
           <button
             key={tab}
             onClick={() => handleTabClick(tab)}
-            className={`px-4 py-2 font-semibold rounded-lg ${activeTab === tab ? 'bg-blue-900 text-white' : 'bg-white text-blue-900'}`}
+            className={`px-4 py-2 font-semibold rounded-t-lg ${activeTab === tab ? 'bg-white text-blue-900 border-t-4 border-2 border-b-0 border-blue-900' : 'bg-blue-900 text-white'}`}
           >
             {tab}
           </button>
         ))}
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+
+      <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto p-4 rounded-lg ${activeTab ? 'border-2 border-blue-900' : ''}`}>
         {servicesData[activeTab].map((service, index) => (
           <div key={index} className="content p-6 rounded-lg shadow-lg bg-white text-center">
             <div className="w-full h-40 overflow-hidden rounded-lg mb-4">

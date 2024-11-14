@@ -42,7 +42,31 @@ const PartnersSection = () => {
               <img src={AbstractLogo} alt="Abstract Media" className="logo-image" />
             </div>
 
-            {/* Duplicate logos to create a continuous scrolling effect */}
+            <div className="partner-logo">
+              <img src={EastbridgeLogo} alt="Eastbridge Group" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={KotakLogo} alt="Kotak Mahindra Bank" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={GooglePayLogo} alt="Google Pay" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={PaytmLogo} alt="Paytm" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={PhonePeLogo} alt="PhonePe" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={RazorpayLogo} alt="Razorpay" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={ComplianceLogo} alt="Compliance Simplified" className="logo-image" />
+            </div>
+            <div className="partner-logo">
+              <img src={AbstractLogo} alt="Abstract Media" className="logo-image" />
+            </div>
+
             <div className="partner-logo">
               <img src={EastbridgeLogo} alt="Eastbridge Group" className="logo-image" />
             </div>

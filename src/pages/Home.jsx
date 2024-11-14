@@ -13,6 +13,7 @@ import StartupFunding from '../components/StartupFunding';
 import Stats from '../components/Stats'; 
 import OfferSection from '../components/OfferSection';
 import Faq from '../components/Faq';
+import Mav from '../components/Mav';
 import Afooter from '../components/Afooter';
 import PartnersSection from '../components/PartnersSection';
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
         <Hero />
         <About />
         <Services />
+        <Mav />
         <OfferSection/>
         {/* <ServicesGrid /> */}
         {/* <Contact /> */}
