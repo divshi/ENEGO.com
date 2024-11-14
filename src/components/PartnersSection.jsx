@@ -12,9 +12,9 @@ import "./PartnersSection.css";
 
 const PartnersSection = () => {
   return (
-    <section className="partners-section mb-20">
+    <section className="partners-section mb-10">
       <div className="container text-center">
-        <h2 className="text-4xl font-bold text-blue-900 mb-10" >Our Partners</h2>
+        <h2 className="text-5xl font-bold text-blue-900 " >Our Partners</h2>
         <div className="slider">
           <div className="inner-slider">
             {/* Logos duplicated twice for seamless scrolling */}
