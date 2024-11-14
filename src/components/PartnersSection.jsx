@@ -7,7 +7,6 @@ import PhonePeLogo from "../assets/phonepe.png";
 import RazorpayLogo from "../assets/razorpay.png";
 import ComplianceLogo from "../assets/compliance.png";
 import AbstractLogo from "../assets/abstract.png";
-import Banner from "../assets/banner.jpeg";
 
 import "./PartnersSection.css";
 

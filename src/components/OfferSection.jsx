@@ -8,7 +8,6 @@ import s10 from '../assets/s10.png';
 import s11 from '../assets/s11.jpeg';
 import s12 from '../assets/s12.jpg';
 import s13 from '../assets/s13.jpeg';
-import s14 from '../assets/s14.jpeg';
 import s15 from '../assets/s15.jpeg';
 import s16 from '../assets/s16.jpeg';
 import s17 from '../assets/s17.jpg';
@@ -61,14 +60,14 @@ const AboutSection = () => {
 
   return (
     <section className="about-section py-16 px-10">
-      <h2 className="text-4xl font-bold text-blue-900 text-center mb-8">What We Offer</h2>
+      <h2 className="text-4xl font-bold text-blue-900 text-center mb-8">Services We Offer</h2>
       
       <div className="flex justify-center space-x-6">
         {Object.keys(servicesData).map((tab) => (
           <button
             key={tab}
             onClick={() => handleTabClick(tab)}
-            className={`px-4 py-2 font-semibold rounded-t-lg ${activeTab === tab ? 'bg-white text-blue-900 border-t-4 border-2 border-b-0 border-blue-900' : 'bg-blue-900 text-white'}`}
+            className={`px-4 py-2 font-semibold rounded-t-lg ${activeTab === tab ? 'bg-blue-900 text-white' : 'bg-white text-blue-900 border-t-4 border-2 border-b-0 border-blue-900'}`}
           >
             {tab}
           </button>
