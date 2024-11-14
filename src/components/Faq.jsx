@@ -23,11 +23,11 @@ const Faq = () => {
             <h1 className="text-5xl font-extrabold text-shadow-3d mb-4">FAQ</h1>
           </div>
 
-          <p className="text-4xl font-extrabold text-shadow-3d mb-4">Excited About Growing Your</p>
-          <p className="text-4xl font-extrabold text-shadow-3d mb-4">New Startup Business?</p>
-          <p className="text-4xl font-extrabold text-shadow-3d mb-4">Give Your New Unique Startup</p>
-          <p className="text-4xl font-extrabold text-shadow-3d mb-8">The Wings It Needs With ENEGO.</p>
-          <p className="text-3xl font-extrabold text-shadow-3d">आपकी सफलता , हमारी जिम्मेदारी</p>
+          <p className="text-5xl font-extrabold text-shadow-3d mb-4">Excited About Growing Your</p>
+          <p className="text-5xl font-extrabold text-shadow-3d mb-4">New Startup Business?</p>
+          <p className="text-3xl font-extrabold text-shadow-3d mb-4">Give Your New Unique Startup</p>
+          <p className="text-3xl font-extrabold text-shadow-3d mb-8">The Wings It Needs With ENEGO.</p>
+          <p className="text-2xl font-extrabold text-shadow-3d">आपकी सफलता , हमारी जिम्मेदारी</p>
         </div>
       </div>
 
